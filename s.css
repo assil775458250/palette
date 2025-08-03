@@ -1,0 +1,215 @@
+ @media (max-width: 500px)
+ {
+    .web
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 15vh;
+    width: 90vw;
+    height: 40vh; 
+   background-color: green;
+   border-radius: 4vw;
+   border: 1px solid black;
+}
+    .web  p
+{
+    padding: 2vh;
+    color: white;
+     font-size: 2vh;
+}
+.web #p2
+{
+    column-count: 2;
+     font-size: 1vh;
+}
+.web .header
+{
+    padding: 3vh;
+    background-color: rgb(165, 116, 42);
+    border-radius: 4vw 4vw 0 0;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 4vh;
+}
+#palette
+{
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    right: 0;
+    border-radius: 50% 4vw 4vw 50%;
+    transition:0.5s ;
+   
+}
+ header span img 
+    {
+        width: 6vh;
+        border-radius: 50%;
+        
+    }
+ }
+ @media (min-width: 500px)
+ {
+    header span img 
+    {
+        width: 6vh;
+        border-radius: 50%;
+        
+    }
+    .web
+{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 6vh;
+    width: 90vw;
+    height: 60vh; 
+   background-color: green;
+   border-radius: 4vw;
+   border: 1px solid black;
+}
+    .web  p
+{
+    padding: 2vh;
+    color: white;
+     font-size: 4vh;
+}
+.web #p2
+{
+    column-count: 2;
+     font-size: 3vh;
+}
+.web .header
+{
+    padding: 3vh;
+    background-color: rgb(165, 116, 42);
+    border-radius: 4vw 4vw 0 0;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 6vh;
+}
+#palette
+{
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
+    right: 0;
+    border-radius: 50% 4vw 4vw 50%;
+    transition:0.5s ;
+   
+}
+ }
+
+
+
+ *{
+    margin: 0%;
+ }
+ body
+ {
+     background: url(image/well.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+ }
+
+.images
+{
+    padding: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+.images div
+{
+
+padding: 1vh;
+border-radius: 30px;
+font-size: 2.5vw;
+font-weight: 800;
+text-transform: capitalize;
+text-shadow: 0 0 3px rgb(237, 164, 69);
+border: 1px solid rgb(255, 255, 255);
+background-color:rgba(237, 164, 69, 0.098) ;
+}
+.color1
+{
+    box-shadow: -10px 10px 10px rgb(237, 164, 69);
+}
+.color2
+{
+    box-shadow: 0px 10px 10px rgb(237, 164, 69);
+}
+.color3
+{
+    box-shadow: 10px 10px 10px rgb(237, 164, 69);
+}
+
+
+.images input
+{
+    margin: 1vw;
+}
+
+#main
+{
+    width: 80vw;
+    height: auto;
+}
+body
+{
+    text-align: center;
+}
+
+
+
+
+.three
+{
+    width: 100%;
+    height: 2vh;
+    background-color: rgb(144, 74, 0);
+}
+header
+{
+    text-align: center;
+
+    padding: 2vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    color: white;
+    text-transform: capitalize;
+    font-size: 170%;
+    font-weight: bolder;
+    border: 2px solid rgb(115, 255, 0);
+    text-shadow: 2px 5px 10px rgb(252, 255, 177);
+}
+#palette_icon
+{
+    font-size: 9vh;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(1, 0, 0);
+    box-shadow: 0 0 10px;
+    z-index: 100;
+}
+
+.non_display_palette
+{
+    
+    display: none;
+
+}
+.display_palette
+{
+    display: block;
+   
+   
+
+}
+
